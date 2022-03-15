@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+
+    android:background="@drawable/sss"
+    android:padding="10dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="350dp"
+
+        android:layout_weight="0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="26436-login-circle.json"
+        app:lottie_loop="true" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:drawableStart="@drawable/ic_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:drawableStart="@drawable/ic_identity"
+        android:hint="usernamae"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="90dp"
+            android:layout_height="47dp"
+            android:layout_marginVertical="8dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/hello"
+            android:text="login"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="90dp"
+            android:layout_height="47dp"
+            android:layout_marginVertical="8dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="0dp"
+
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/hello"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:cornerRadius="50dp" />
+
+        >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="550dp"
+
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/hello"
+        android:text="Register"
+
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+
+        app:cornerRadius="100dp" />
+
+
+</RelativeLayout>

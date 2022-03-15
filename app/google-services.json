@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269861410032",
+    "project_id": "hostlex-948de",
+    "storage_bucket": "hostlex-948de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269861410032:android:5533b1936c6b57bf9ede35",
+        "android_client_info": {
+          "package_name": "com.example.hostlex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269861410032-50n9fro17mcb43rdvs8mb9nlafvao58r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL3brn2pw2mwJB4DNlgo45wUEU3AyQ93A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269861410032-50n9fro17mcb43rdvs8mb9nlafvao58r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
